@@ -19,7 +19,7 @@ the content here then please [click here for a refund](https://google.com).
 
 Now, if you feel like something that I've written is incorrect or can perhaps be
 done better then by all means leave a comment (or
-[issue a pull request](https://github.com/jay3ss/jay3ss.github.io/issues)!)
+[issue a pull request](https://github.com/jay3ss/lab137/issues)!).
 
 Also, please remember that all opinions are mine and not a reflection of
 anyone else (or any organization that I may be associated with).
