@@ -1,0 +1,16 @@
+p {
+    color: white;
+    font-size: 1.2em;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+/* Change the highlight colors */
+::selection {
+  background: blue; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: blue; /* Gecko Browsers */
+}
