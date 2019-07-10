@@ -16,10 +16,21 @@ If you've found my writing useful, then great! Otherwise, if you don't like
 what I've written or feel like you've been wronged by wasting your time reading
 the content here then please [click here for a refund](https://google.com).
 
-
 Now, if you feel like something that I've written is incorrect or can perhaps be
 done better then by all means leave a comment (or
 [issue a pull request](https://github.com/jay3ss/lab137/issues)!).
 
 Also, please remember that all opinions are mine and not a reflection of
 anyone else (or any organization that I may be associated with).
+
+## What's with the name?
+
+The number 137 comes from the
+[fine-structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant)
+which is approximately <sup>1</sup>/<sub>137</sub> and is a fundamental
+physical constant (&alpha;) and is the [best known, dimensionless fundamental
+physical constant](https://en.wikipedia.org/wiki/Physical_constant#Choice_of_units).
+The number 137 is also [significant
+physics](https://en.wikipedia.org/wiki/137_(number)#In_physics).
+
+As for the "Lab" portion, why not?

@@ -1,0 +1,177 @@
+<!-- Title: Building a Linked Stack: Part 1
+Author: Jay Ess
+Date: 2019-06-12 12:00
+Tags: data structure, stack, Python
+Status: published
+
+
+*This is the first article in a multi-part series on the
+[stack data structure](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
+This series defines what a stack is and what it does, then implement a
+link-based stack*
+
+A stack is a data structure that holds data in
+<abbr title="Last In First Out">LIFO</abbr> order. This means that whatever was
+the most recent "thing" to be put onto the stack will be the first to be
+removed.
+
+Imagine that you are washing a stack of dirty dishes, such as those shown in
+the figure below. You wash a plate, take another plate off the top, wash it,
+put it away, and repeat. Once there are no more dishes, the stack is empty.
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="thumnail">
+            <img src="{static}/img/stack_of_plates.jpg"
+                class="img-responsive align-center"
+                alt="A stack of dirty dishes"
+                title="A stack of dirty dishes">
+            <div class="caption text-center">
+                A stack of dirty dishes. Image courtesy of
+                <a href="https://torange.biz">torange.biz</a>,
+                <a href="https://creativecommons.org/licenses/by/4.0/">
+                    License CC-BY 4.0
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+Now, imagine that someone keeps adding more plates to the stack of dirty
+dishes. Where are they going to add them? The bottom? No, that could make all
+of the dishes fall and is incovenient. What about in between some of the
+dishes? Same thing as adding at the bottom. The best place to add new dirty
+dishes is the top of the stack of dirty dishes.
+
+As more dishes are added, you keep washing the ones off of the top of the stack
+until there are no more to be washed. That's pretty much what the stack data
+structure is. It's an ordered collection of things (with the most recently
+added thing at the top) and you can perform certain  operations on it. You can
+
+- see if the stack is empty
+- see how many things are in it
+- take an item off of the top (pop!)
+- add something to the top (push!)
+- see what the item at the top is (peek!)
+
+## Axioms
+
+Now, this can all be defined formally using [axioms](#references)&sup1;
+which, despite how they may look, are quite simple.
+
+1. `(new Stack()).isEmpty() = true`
+2. `(new Stack()).pop() = false`
+3. `(new Stack()).peek() = error`
+4. `(aStack.push(item)).isEmpty() = false`
+5. `(aStack.push(item)).peek() = item`
+6. `(aStack.push(item)).pop() = true`
+
+In order, this is what they mean
+
+1. A new stack should be empty
+2. You can't take something off the top of an empty stack
+3. Trying to see what's at the top of an empty stack results in an error
+4. A stack with something in it isn't empty
+5. Looking (peeking) at the top gives you the thing that was most recently
+   added
+6. You can remove something from a non-empty stack
+
+That's pretty much it.
+
+## What's the point?
+
+What's a stack good for? Well, you can use a stack to parse a string to
+identify palindromes, to store data that is local to a function (a stack
+frame), store the address of a call to a procedure, use them to remember
+previously visited locations while solving a maze (backtracking), and so much
+more.
+
+Plus, knowing how stacks work also gives you insight into how many
+computers manage memory and run programs. Which is certainly something that
+can help you to become a better programmer.
+
+As a note, the point of all this *isn't* to make something that's production
+ready. There are better methods to make a stack. What we're doing here is
+purely academic, of course.
+
+## Prereqs
+
+You should have some experience programming in C++, Python, or some other
+C-based, object-oriented language.
+
+## Interface
+
+In order to create something that programmers (this includes **you**) can and
+want to use, we need to make a contract. In this contract, we will spell out
+what the programmer needs to do in order to use our stack and what our stack
+will do for the programmer. This will define our
+<abbr title="Application Programmer Interface">API</abbr> and allow people to
+use our code without worrying too much about how it works.
+
+This contract will be spelled out in our interface, which is a class that
+specifies what methods a programmer must implement in order to implement the
+stack. This will only tell the programmer *what* the data structure is and
+does, not *how* it does. That is up to the programmer.
+
+### Some Terminology
+
+A **precondition** is a condition that must be satisfied before a function is
+called while a **postcondition** is a condition after the function has
+finished.
+
+
+### The Code
+
+As you can see, the class is written to be an abstract base class by
+inheriting from the`abc.ABC` class. This means that any class attempting to
+sublcass this must implement every method specified here, otherwise a
+`TypeError` will be raised.
+
+On to the code
+
+    :::python
+    # The following uses Python 3.6.8
+    import abc
+
+
+    class StackInterface(abc.ABC):
+        """An abstract base class that defines a stack"""
+        @abc.abstractmethod
+        def is_empty(self):
+            """Determines if the stack is empty
+            :return True if the stack is empty, False otherwise
+            """
+
+        @abc.abstractmethod
+        def peek(self):
+            """Returns the top of the stack
+            :pre The stack isn't empty
+            :return The entry at the top of the stack
+            """
+
+        @abc.abstractmethod
+        def pop(self):
+            """Removes the entry from the top of the stack
+            :post The entry at the top of the stack will be removed, if possible
+            :return True if removal was successful, False otherwise
+            """
+
+        @abc.abstractmethod
+        def push(self, entry):
+            """Adds an entry to the top of the stack
+            :post The entry will be added to the top of the stack, if possible
+            :return True if addition was successful, False otherwise
+            """
+
+For more information on how to use the `abc` module, see
+[PyMOTW 3: abc — Abstract Base Classes ](https://pymotw.com/3/abc/).
+
+## Conclusion
+
+We talked baout what a stack is, what some uses for it are, and then we made an
+interface for a stack in Python. In the [next article]({filename}/articles/building_a_linked_stack_part_2.md),
+we'll start implementing a linked-stack by implementing the `push` method.
+
+## <a name="references"></a>References
+
+1. [Data Abstraction & Problem Solving with C++: Walls and Mirrors, 6th Edition](https://www.pearson.com/us/higher-education/product/Carrano-Data-Abstraction-Problem-Solving-with-C-Walls-and-Mirrors-6th-Edition/9780132923729.html) -->
