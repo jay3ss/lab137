@@ -7,18 +7,21 @@ html, p, li {
   font-size: 1.1rem;
 }
 
+pre, code {
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
 pre {
-  font-size: 1.1rem;
   border: none;
   border-left: 2px solid #4e4e4d;
   border-radius: 0;
+  font-weight: 500;
 }
 
 code {
   color: #888;
   background-color: black;
-  font-size: 1.1rem;
-  font-weight: 500;
 }
 
 ul {
@@ -30,12 +33,10 @@ ul {
 }
 
 a:link {
-  /* color: lightblue; */
   color: royalblue;
 }
 
 a:active, a:visited {
-  /* color: cadetblue; */
   color: palevioletred;
 }
 
@@ -59,4 +60,15 @@ a:active, a:visited {
 
 .highlight {
   padding: 0.5em 0 0.5em 0;
+}
+
+/* Solutions for mobile and small screens  */
+@media (max-width: 650px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .highlight, pre, code {
+    font-size: 0.8rem;
+  }
 }
