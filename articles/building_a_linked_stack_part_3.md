@@ -116,7 +116,7 @@ stack!) otherwise. Pretty straightforward, but it will require us to create our
 own exception.
 
 The [documentation](https://docs.python.org/3/library/exceptions.html#Exception)
-states that when creating user-define exceptions we should derive from the
+states that when creating user-defined exceptions we should derive from the
 `Exception` class, so that's what we're going to do. We're going to go with a
 meaningful name, otherwise we may not live very long.
 
