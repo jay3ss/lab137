@@ -20,11 +20,36 @@ are
 
 > Enter quote about complex numbers from Wikipedia
 
-Complex numbers can be written in two forms: rectangular and polar.
+Complex numbers can be written in two forms: rectangular and polar. They live
+in the 2-dimensional complex plane with the horizontal axis is called the
+"real" axis while the vertical axis is called the "imaginary" axis. The figure
+below demonstrates this nicely.
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="thumbnail">
+            <img src="{static}/img/complex_number.svg"
+                 class="img-responsive align-center"
+                 alt="A complex number"
+                 title="A complex number">
+            <div class="caption text-center">
+                A complex number z, as a point (red) and its position vector (blue).
+                Image courtesy of
+                <a href="https://en.wikipedia.org/wiki/Complex_number#/media/File:A_plus_bi.svg">
+                    LasinIkamusumeFan
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 ### Rectangular Form
 
+The rectangular form of a complex number is as follows
 
+$$
+Z = a + jb
+$$
 
 ### Polar Form
 
@@ -32,13 +57,10 @@ Complex numbers can be written in two forms: rectangular and polar.
 
 ### Summary
 
-The table below summarizes the two different forms
+The list below summarizes the two different forms
 
-<!-- Insert HTML table instead so that it's responsive? -->
-| Form | Example |
-|---|---|
-| Rectangular | $\text{Z} = \text{a} + \text{jb}$ |
-| Polar | $\text{Z} = abs{r} \text{e} exp{\phi} |
+- *Rectangular:* $Z = a + jb$  <!-- $\text{Z} = \text{a} + \text{jb}$ -->
+- *Polar:* $Z = \|r\| e^\phi$ <!-- \| \text{r} \| \text{e} ^{\phi}$ -->
 
 ## Convert from Rectangular to Polar Form
 
