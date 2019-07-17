@@ -62,6 +62,12 @@ a:active, a:visited {
   padding: 0.5em 0 0.5em 0;
 }
 
+/* Set font size for MathJax equations */
+
+.MathJax_Display {
+  font-size: 1.1rem;
+}
+
 /* Solutions for mobile and small screens  */
 @media (max-width: 650px) {
   p {
