@@ -24,7 +24,7 @@
 		<line x1="10" y1="100" x2="170" y2="100" />
 	</g>
 
-	<!-- z = a + bi. -->
+	<!-- z = a + jb. -->
 	<line x1="30" y1="100" x2="140" y2="30" stroke-width="4" stroke="blue"
 		marker-end="url(#blue-ending)" />
 	<!-- Lines. -->
@@ -41,6 +41,6 @@
 		<text fill="white" x="18" y="115">O</text>
 		<text fill="white" x="140" y="115">a</text>
 		<text fill="white" x="18" y="35">b</text>
-		<text fill="white" x="140" y="30" dy="-10">z=a+bi</text>
+		<text fill="white" x="140" y="30" dy="-10">z=a+jb</text>
 	</g>
 </svg>
