@@ -77,4 +77,8 @@ a:active, a:visited {
   .highlight, pre, code {
     font-size: 0.8rem;
   }
+
+  .MathJax_Display {
+    font-size: 0.9rem;
+  }
 }
