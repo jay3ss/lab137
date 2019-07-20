@@ -1,6 +1,6 @@
 Title: Simple Complex Number Algebra
 Author: Jay Ess
-Date: 2019-07-11 12:00
+Date: 2019-07-19 16:00
 Tags: complex numbers, math, algebra, complex conjugate, imaginary numbers
 Status: published
 
