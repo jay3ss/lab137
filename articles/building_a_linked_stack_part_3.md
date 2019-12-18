@@ -296,7 +296,7 @@ EmptyException                            Traceback (most recent call last)
 
 <ipython-input-4-6a54ea098db0> in peek(self)
      11         """Returns the top of the stack"""
-     12         if self.top is None:
+     12         if self.is_empt():
 ---> 13             raise EmptyException("Stack is empty")
      14
      15         return self.top.data

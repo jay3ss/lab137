@@ -175,8 +175,7 @@ table below shows you exactly how to find this out.
     IMPORTANT! Don't remove the space in front of the div! It'll cause MathJax
     to stop rendering in the table
 -->
- <div class="table-responsive">
-  <table class="table">
+ <table class="table is-fullwidth">
     <thead>
       <tr>
         <th>Conditions</th>
@@ -207,7 +206,6 @@ table below shows you exactly how to find this out.
         </tr>
       </tbody>
   </table>
-</div>
 
 Once you know what quadrant the complex number is in, then finding the phase
 angle is pretty straightforward. Below I've created another table that lists
@@ -218,8 +216,7 @@ on the quadrant.
     IMPORTANT! Don't remove the space in front of the div! It'll cause MathJax
     to stop rendering in the table
 -->
- <div class="table-responsive" id="quadrants">
-  <table class="table">
+ <table class="tabl table is-fullwidth">
     <thead>
       <tr>
         <th>Quadrant</th>
@@ -245,7 +242,6 @@ on the quadrant.
         </tr>
       </tbody>
   </table>
-</div>
 
 
 #### Example

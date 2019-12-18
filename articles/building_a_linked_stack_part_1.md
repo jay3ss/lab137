@@ -21,23 +21,7 @@ washing, every time you clean one plate you pull another off the top of the
 stack of dirty dishes. If someone wants to give you more dishes to wash they're
 going to put them on top of your stack.
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="thumbnail">
-            <img src="{static}/img/stack_of_plates.jpg"
-                class="img-responsive align-center"
-                alt="A stack of dirty dishes"
-                title="A stack of dirty dishes">
-            <div class="caption text-center">
-                A stack of dirty dishes. Image courtesy of
-                <a href="https://torange.biz">torange.biz</a>,
-                <a href="https://creativecommons.org/licenses/by/4.0/">
-                    License CC-BY 4.0
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+![A stack of dirty dishes]({static}/img/stack_of_plates.jpg)
 
 That's pretty much what the stack data structure is. It's an ordered collection
 of things (with the most recently added thing at the top) and you can perform
@@ -109,22 +93,7 @@ fifth element of the array (assuming zero indexing). This is actually an offset
 from the address of the first element in the array. This gives us quick and
 direct access to the data. This quick and direct access comes at a cost.
 
-<div class="row">
-    <div class="col-md-12">
-        <div class="thumbnail">
-            <img src="{static}/img/array.svg"
-                 class="img-responsive align-center"
-                 alt="A block of memory representing an array"
-                 title="A block of memory representing an array">
-            <div class="caption text-center">
-                A block of memory representing an array. Image courtesy of
-                <a href="https://commons.wikimedia.org/wiki/User:Jarkko_Piiroinen">
-                    Jarkko Piiroinen
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+![A block of memory representing an array]({static}/img/array.svg)
 
 When an array has data added to it and it is, extra memory must be allocated
 to make room for the data (and then some) and the data must be copied to the
@@ -160,39 +129,14 @@ then that reference is `None` in Python (or, `nullptr` in C++). In the figure
 below, the left side of the node is the data and the right side is a reference
 to the next node indicated by an arrow.
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="thumbnail">
-            <img src="{static}/img/node_scoured.svg"
-                 class="img-responsive align-center"
-                 alt="A single node"
-                 title="A single node">
-            <div class="caption text-center">
-                A single node.
-            </div>
-        </div>
-    </div>
-</div>
+![A single node]({static}/img/node_scoured.svg)
 
 A chain of nodes is shown in the figure below. The head consists of a head node
 and the nodes following it. The end of the chain is the block all the way to
 the right with an "X" in it. This "X" represents a reference to `None` in
 Python (or `nullptr` in C++) indicating the end of the chain.
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="thumbnail">
-            <img src="{static}/img/singly-linked-list.svg"
-                 class="img-responsive align-center"
-                 alt="A link of nodes"
-                 title="A link of nodes">
-            <div class="caption text-center">
-                A link of nodes. Image courtesy of
-                <a href="https://commons.wikimedia.org/wiki/File:Singly-linked-list.svg">Lasindi</a>
-            </div>
-        </div>
-    </div>
-</div>
+![A stack of dirty dishes]({static}/img/stack_of_plates.jpg)
 
 Now, linked data structures aren't perfect and there will be some tradeoffs to
 using one versus using an array. First, they take more memory because they must
@@ -293,3 +237,10 @@ implementing the linked stack by implementing the `push` method.
 5. [Starting out with C++: From Control Structure Through Objects, 8th Edition](https://www.pearson.com/us/higher-education/product/Gaddis-Starting-Out-with-C-from-Control-Structures-to-Objects-8th-Edition/9780133769395.html)
 6. [PyMOTW 3: abc — Abstract Base Classes ](https://pymotw.com/3/abc/)
 7. [Interfaces - The Most Important Software Engineering Concept](http://blog.robertelder.org/interfaces-most-important-software-engineering-concept/)
+
+## Resources
+
+1. Stack of dirty dishes. Image courtesy of [torange.biz](https://torange.biz),
+[License CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+2. A block of memory representing an array. Image courtesy of
+[Jarkko Piiroinen](https://commons.wikimedia.org/wiki/User:Jarkko_Piiroinen)

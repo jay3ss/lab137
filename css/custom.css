@@ -1,84 +1,8 @@
-body {
-  line-height: 1.5;
-  padding: 4em 1em;
+a, .card-content a h3 {
+  color:#00d1b2;
 }
 
-html, p, li {
-  font-size: 1.1rem;
-}
-
-pre, code {
-  font-family: monospace;
-  font-size: 0.9rem;
-}
-
-pre {
-  border: none;
-  border-left: 2px solid #4e4e4d;
-  border-radius: 0;
-  font-weight: 500;
-}
-
-code {
-  color: #888;
-  background-color: black;
-}
-
-ul {
-  list-style-type: circle;
-}
-
-.caption {
-  font-size: 0.9rem;
-}
-
-a:link {
-  color: royalblue;
-}
-
-a:active, a:visited {
-  color: palevioletred;
-}
-
-.thumbnail {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-/* Change the highlight colors */
-::selection {
-  background: royalblue; /* WebKit/Blink Browsers */
+.navbar-brand > .title{
+  background-color: #00d1b2 !important;
   color: white;
-}
-::-moz-selection {
-  background: royalblue; /* Gecko Browsers */
-  color: white;
-}
-
-
-.highlight {
-  padding: 0.5em 0 0.5em 0;
-}
-
-/* Set font size for MathJax equations */
-
-.MathJax_Display {
-  font-size: 1.1rem;
-}
-
-/* Solutions for mobile and small screens  */
-@media (max-width: 650px) {
-  p {
-    font-size: 1rem;
-  }
-
-  .highlight, pre, code {
-    font-size: 0.8rem;
-  }
-
-  .MathJax_Display {
-    font-size: 0.9rem;
-  }
 }

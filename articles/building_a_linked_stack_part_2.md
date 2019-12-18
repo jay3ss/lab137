@@ -30,20 +30,7 @@ holds the data and a reference to the next node in the chain such as shown in
 the figure below (recycled from the previous post). We need this reference to
 the next node because it can be anywhere in memory.
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="thumbnail">
-            <img src="{static}/img/singly-linked-list.svg"
-                 class="img-responsive align-center"
-                 alt="A link of nodes"
-                 title="A link of nodes">
-            <div class="caption text-center">
-                A link of nodes. Image courtesy of
-                <a href="https://commons.wikimedia.org/wiki/File:Singly-linked-list.svg">Lasindi</a>
-            </div>
-        </div>
-    </div>
-</div>
+![A link of nodes]({static}/img/singly-linked-list.svg)
 
 ### Using the Stack Interface
 
@@ -160,3 +147,9 @@ Here's the Python code
 In this article, we learned about nodes and the top node and we also
 implemented the `is_empty` and `push` methods. In the next article we'll finish
 implementing our `LinkedStack` class by implementing the pop and peek methods.
+
+
+## Resources
+
+1.  A link of nodes. Image courtesy of
+[Lasindi](https://commons.wikimedia.org/wiki/File:Singly-linked-list.svg)

@@ -6,8 +6,8 @@
 	<desc>An empty one-dimensional array.</desc>
 
 	<defs>
-		<rect id="box" width="33" height="32" fill="black" stroke="white" stroke-width="2" />
-		<rect id="box-end" width="32" height="32" fill="black" stroke="white" stroke-width="2" />
+		<rect id="box" width="33" height="32" fill="white" stroke="black" stroke-width="2" />
+		<rect id="box-end" width="32" height="32" fill="white" stroke="black" stroke-width="2" />
 	</defs>
 
 	<use x="0" y="0" xlink:href="#box" transform="translate(4,21)" />
@@ -21,14 +21,14 @@
 	<use x="256" y="0" xlink:href="#box" transform="translate(4,21)" />
 	<use x="288" y="0" xlink:href="#box-end" transform="translate(4,21)" />
 
-	<text style="font-family:Bitstream Vera Sans" x="16" y="0" fill="white" font-size="15" transform="translate(0,15)">0</text>
-	<text style="font-family:Bitstream Vera Sans" x="48" y="0" fill="white" font-size="15" transform="translate(0,15)">1</text>
-	<text style="font-family:Bitstream Vera Sans" x="80" y="0" fill="white" font-size="15" transform="translate(0,15)">2</text>
-	<text style="font-family:Bitstream Vera Sans" x="112" y="0" fill="white" font-size="15" transform="translate(0,15)">3</text>
-	<text style="font-family:Bitstream Vera Sans" x="144" y="0" fill="white" font-size="15" transform="translate(0,15)">4</text>
-	<text style="font-family:Bitstream Vera Sans" x="176" y="0" fill="white" font-size="15" transform="translate(0,15)">5</text>
-	<text style="font-family:Bitstream Vera Sans" x="208" y="0" fill="white" font-size="15" transform="translate(0,15)">6</text>
-	<text style="font-family:Bitstream Vera Sans" x="240" y="0" fill="white" font-size="15" transform="translate(0,15)">7</text>
-	<text style="font-family:Bitstream Vera Sans" x="272" y="0" fill="white" font-size="15" transform="translate(0,15)">8</text>
-	<text style="font-family:Bitstream Vera Sans" x="304" y="0" fill="white" font-size="15" transform="translate(0,15)">9</text>
+	<text style="font-family:Bitstream Vera Sans" x="16" y="0" fill="black" font-size="15" transform="translate(0,15)">0</text>
+	<text style="font-family:Bitstream Vera Sans" x="48" y="0" fill="black" font-size="15" transform="translate(0,15)">1</text>
+	<text style="font-family:Bitstream Vera Sans" x="80" y="0" fill="black" font-size="15" transform="translate(0,15)">2</text>
+	<text style="font-family:Bitstream Vera Sans" x="112" y="0" fill="black" font-size="15" transform="translate(0,15)">3</text>
+	<text style="font-family:Bitstream Vera Sans" x="144" y="0" fill="black" font-size="15" transform="translate(0,15)">4</text>
+	<text style="font-family:Bitstream Vera Sans" x="176" y="0" fill="black" font-size="15" transform="translate(0,15)">5</text>
+	<text style="font-family:Bitstream Vera Sans" x="208" y="0" fill="black" font-size="15" transform="translate(0,15)">6</text>
+	<text style="font-family:Bitstream Vera Sans" x="240" y="0" fill="black" font-size="15" transform="translate(0,15)">7</text>
+	<text style="font-family:Bitstream Vera Sans" x="272" y="0" fill="black" font-size="15" transform="translate(0,15)">8</text>
+	<text style="font-family:Bitstream Vera Sans" x="304" y="0" fill="black" font-size="15" transform="translate(0,15)">9</text>
 </svg>
