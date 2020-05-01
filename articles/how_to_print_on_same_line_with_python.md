@@ -1,6 +1,7 @@
 Title: How to Print on the Same Line with Python
 Author: Jay Ess
 Date: 2019-12-17 16:00
+Modified: 2020-05-01 15:51
 Tags: python, print
 Status: published
 
