@@ -6,3 +6,7 @@ a, .card-content a h3 {
   background-color: #00d1b2 !important;
   color: white;
 }
+
+.menu-list a.is-active {
+  background-color: #00d1b2;
+}
