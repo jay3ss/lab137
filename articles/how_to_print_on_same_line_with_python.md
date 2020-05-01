@@ -99,7 +99,7 @@ Image	6	https://example.com/image-6.jpg
 It took me longer than I'd like to admit to figure out what went wrong. If you
 look at the line where I grab the file name (`fname`) from the URL, you'll see
 that I call the `strip` method. Why? Each line of the file had a `\n` character
-at the end of it. Even though I did it for the file name I **did** not do it
+at the end of it. Even though I did it for the file name I **did not** do it
 for the printing of the URL. This one little mistake cost me probably 90 to 120
 minutes...
 
