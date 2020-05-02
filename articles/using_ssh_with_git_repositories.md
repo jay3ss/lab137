@@ -1,6 +1,6 @@
 Title: Using SSH with Git Repositories
 Author: Jay Ess
-Date: 2020-05-01 14:26
+Date: 2020-05-02 15:11
 Tags: til, git, ssh
 Status: published
 
