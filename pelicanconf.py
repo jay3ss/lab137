@@ -38,7 +38,7 @@ AUTHOR = 'Jay Ess'
 SITENAME = 'Lab137'
 SITEURL = ''
 
-STATIC_PATHS = ["css", "img"]
+STATIC_PATHS = ["css", "img", "extra/favicon.ico", "extra/CNAME"]
 
 PATH = 'content'
 ARTICLE_PATHS = ['articles']
