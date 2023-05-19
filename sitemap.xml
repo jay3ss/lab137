@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://lab137.org/</loc>
-<lastmod>2023-05-19T02:21:38-00:00</lastmod>
+<lastmod>2023-05-19T02:21:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://lab137.org/tags.html</loc>
-<lastmod>2023-05-19T02:21:38-00:00</lastmod>
+<lastmod>2023-05-19T02:21:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://lab137.org/categories.html</loc>
-<lastmod>2023-05-19T02:21:38-00:00</lastmod>
+<lastmod>2023-05-19T02:21:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://lab137.org/authors.html</loc>
-<lastmod>2023-05-19T02:21:38-00:00</lastmod>
+<lastmod>2023-05-19T02:21:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://lab137.org/archives.html</loc>
-<lastmod>2023-05-19T02:21:38-00:00</lastmod>
+<lastmod>2023-05-19T02:21:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
