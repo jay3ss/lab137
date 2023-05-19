@@ -14,6 +14,8 @@ PLUGINS = ['assets', "render_math", "sitemap"]
 
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'css/custom.css'},
+    "extra/favicon.ico": {"path": "favicon.ico"},
+    "extra/CNAME": {"path": "CNAME"},
 }
 
 SITEMAP = {
