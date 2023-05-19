@@ -21,7 +21,7 @@ AUTHOR = 'Jay Ess'
 SITENAME = 'Lab137'
 SITEURL = ''
 
-STATIC_PATHS = ["css", "img", "js"]
+STATIC_PATHS = ["css", "img"]
 
 PATH = 'content'
 ARTICLE_PATHS = ['articles']
