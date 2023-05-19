@@ -33,6 +33,11 @@ figcaption {
   .responsive-image {
     width: 50% !important;
   }
+
+  .section.columns {
+    padding: 20px;
+    font-size: 1.25em !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
