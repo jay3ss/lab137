@@ -489,3 +489,6 @@ please comment below.
 [complex numbers]: https://en.wikipedia.org/wiki/Complex_number "Wikipedia - Complex Numbers"
 [Wikipedia - List of things named after Leonhard Euler]: https://en.wikipedia.org/wiki/List_of_things_named_after_Leonhard_Euler "Wikipedia - List of things named after Leonhard Euler"
 [importance of complex conjugates]: https://www.allaboutcircuits.com/technical-articles/importance-of-complex-conjugates/ "All About Circuits - The Importance of Complex Conjugates"
+
+
+<script type="text/javascript" src="/js/mathjax.js"></script>
