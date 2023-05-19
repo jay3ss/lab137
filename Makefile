@@ -8,6 +8,8 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
+GITHUB_HOST_BRANCH=master
+GITHUB_HOST_REPO=git@github.com:jay3ss/jay3ss.github.io.git
 GITHUB_PAGES_BRANCH=gh-pages
 
 
@@ -72,8 +74,8 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 github: publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
-	git push origin $(GITHUB_PAGES_BRANCH)
+	python -m ghp_import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
+	git push $(GITHUB_HOST_REPO) $(GITHUB_PAGES_BRANCH):$(GITHUB_HOST_BRANCH)
 
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
