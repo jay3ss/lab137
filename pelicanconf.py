@@ -10,11 +10,26 @@ JINJA_FILTERS = bulrush.FILTERS
 
 LICENSE = "CC BY-SA 4.0"
 PLUGIN_PATHS = [str(Path("pelican-plugins").resolve())]
-PLUGINS = ['assets', "render_math"]
+PLUGINS = ['assets', "render_math", "sitemap"]
 
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'css/custom.css'},
 }
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+
 
 # site settings
 AUTHOR = 'Jay Ess'
