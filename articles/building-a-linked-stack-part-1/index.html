@@ -6,13 +6,13 @@
   <title>Building a Linked Stack: Part 1</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="/theme/css/main.3dad1b7a.css">
+    <link rel="stylesheet" href="https://lab137.org/theme/webassets-external/46d881e6c501c98655e77a7722a6ac98_main.css">
   <style media="print">.is-hidden-print{display:none !important}</style>
-      <link rel="stylesheet" href="/css/custom.css">
+      <link rel="stylesheet" href="https://lab137.org/css/custom.css">
 <meta property="og:title" content="Lab137 - Building a Linked Stack: Part 1">
   <meta property="og:description" content="This is the first article in a multi-part series on the stack data structure. This series defines what a stack is and what it does, then implement a link-based stack What is a Stack? A stack is a...">
-<meta property="og:url" content="/articles/building-a-linked-stack-part-1/">
-    <meta property="og:image" content="/img/stack_of_plates.jpg">
+<meta property="og:url" content="https://lab137.org/articles/building-a-linked-stack-part-1/">
+    <meta property="og:image" content="https://lab137.org/img/stack_of_plates.jpg">
     <meta name="twitter:image:alt" content="Lab137">
 <meta name="twitter:card" content="summary">
 <meta property="og:site_name" content="Lab137">
@@ -31,7 +31,7 @@
       <nav class="navbar">
         <div class="navbar-brand">
           <a class="navbar-item title is-3"
-             href="/">Lab137</a>
+             href="https://lab137.org/">Lab137</a>
         </div>
       </nav>
     </div>
@@ -49,7 +49,7 @@
     <div id="navMenu" class="navbar-menu">
         <div class="navbar-end">
               <a class="navbar-item is-tab is-active"
-                 href="/categories/articles/">articles</a>
+                 href="https://lab137.org/categories/articles/">articles</a>
         </div>
     </div>
   </div>
@@ -61,25 +61,25 @@
 <section id="content" class="body">
   <article>
     <h1 class="title">
-      <a href="/articles/building-a-linked-stack-part-1/" rel="bookmark"
+      <a href="https://lab137.org/articles/building-a-linked-stack-part-1/" rel="bookmark"
          title="Permalink to Building a Linked Stack: Part 1">Building a Linked Stack: Part 1</a></h1>
 <footer class="post-info">
   <abbr class="published" title="2019-06-12T12:00:00-07:00">
     Published <span class="is-info">Wed 12 June 2019</span>
-    in <a href="/categories/articles/">articles</a>
+    in <a href="https://lab137.org/categories/articles/">articles</a>
   </abbr>
 
     <p class="author">
-      <em>by           <a class="url fn" href="/author/jay-ess/">Jay Ess</a>
+      <em>by           <a class="url fn" href="https://lab137.org/author/jay-ess/">Jay Ess</a>
 </em>
       <span class="tag is-small is-rounded">
-        <a href="/tags/data-structure/">data structure</a>
+        <a href="https://lab137.org/tags/data-structure/">data structure</a>
       </span>
       <span class="tag is-small is-rounded">
-        <a href="/tags/stack/">stack</a>
+        <a href="https://lab137.org/tags/stack/">stack</a>
       </span>
       <span class="tag is-small is-rounded">
-        <a href="/tags/python/">Python</a>
+        <a href="https://lab137.org/tags/python/">Python</a>
       </span>
     </p>
   
@@ -96,7 +96,7 @@ removed.</p>
 washing, every time you clean one plate you pull another off the top of the
 stack of dirty dishes. If someone wants to give you more dishes to wash they're
 going to put them on top of your stack.</p>
-<p><img alt="A stack of dirty dishes" src="/img/stack_of_plates.jpg"></p>
+<p><img alt="A stack of dirty dishes" src="https://lab137.org/img/stack_of_plates.jpg"></p>
 <p>That's pretty much what the stack data structure is. It's an ordered collection
 of things (with the most recently added thing at the top) and you can perform
 certain  operations on it. You can</p>
@@ -158,7 +158,7 @@ access an element of an array you use an index such as <code>arr[4]</code> to ac
 fifth element of the array (assuming zero indexing). This is actually an offset
 from the address of the first element in the array. This gives us quick and
 direct access to the data. This quick and direct access comes at a cost.</p>
-<p><img alt="A block of memory representing an array" src="/img/array.svg"></p>
+<p><img alt="A block of memory representing an array" src="https://lab137.org/img/array.svg"></p>
 <p>When an array has data added to it and it is, extra memory must be allocated
 to make room for the data (and then some) and the data must be copied to the
 new memory location. This is one of the costs of using an array, the time that
@@ -188,12 +188,12 @@ that holds data and a reference to another node. If there is no other node,
 then that reference is <code>None</code> in Python (or, <code>nullptr</code> in C++). In the figure
 below, the left side of the node is the data and the right side is a reference
 to the next node indicated by an arrow.</p>
-<p><img alt="A single node" src="/img/node_scoured.svg"></p>
+<p><img alt="A single node" src="https://lab137.org/img/node_scoured.svg"></p>
 <p>A chain of nodes is shown in the figure below. The head consists of a head node
 and the nodes following it. The end of the chain is the block all the way to
 the right with an "X" in it. This "X" represents a reference to <code>None</code> in
 Python (or <code>nullptr</code> in C++) indicating the end of the chain.</p>
-<p><img alt="A stack of dirty dishes" src="/img/stack_of_plates.jpg"></p>
+<p><img alt="A stack of dirty dishes" src="https://lab137.org/img/stack_of_plates.jpg"></p>
 <p>Now, linked data structures aren't perfect and there will be some tradeoffs to
 using one versus using an array. First, they take more memory because they must
 contain a reference to the next node in each node in the chain. Second, they do
@@ -202,7 +202,7 @@ must start with the head of the structure and traverse the chain until you
 reach the desired entry.</p>
 <h2>The Stack Interface</h2>
 <p>We're going to start with defining an interface for the stack then
-move on to implementing the linked stack in the <a href="/articles/building-a-linked-stack-part-2/">next
+move on to implementing the linked stack in the <a href="https://lab137.org/articles/building-a-linked-stack-part-2/">next
 article</a>. The point of
 making an interface is to make sure that we implement the correct methods in
 our implementation. Now, this may not seem like it's such a big deal right now
@@ -272,7 +272,7 @@ wrote. If these methods haven't been implemented, then the specifications have
 not been met and the subclass can't be instantiated. Neat!</p>
 <h2>Conclusion</h2>
 <p>In this article we talked about what a stack is, what a linked stack is, and
-then we wrote an interface for a stack. In the <a href="/articles/building-a-linked-stack-part-2/">next
+then we wrote an interface for a stack. In the <a href="https://lab137.org/articles/building-a-linked-stack-part-2/">next
 article</a>, we'll start
 implementing the linked stack by implementing the <code>push</code> method.</p>
 <h2>References</h2>
@@ -297,7 +297,7 @@ implementing the linked stack by implementing the <code>push</code> method.</p>
 </section>
 
 <script type="application/ld+json">
-  {"articleSection": "articles", "author": {"@type": "Person", "name": "Jay Ess"}, "datePublished": "2019-06-12T12:00:00-07:00", "headline": "Building a Linked Stack: Part 1", "mainEntityOfPage": {"@type": "WebPage", "@id": "/articles/building-a-linked-stack-part-1/"}, "@context": "http://schema.org", "@type": "BlogPosting", "description": "This is the first article in a multi-part series on the stack data structure. This series defines what a stack is and what it does, then implement a link-based stack What is a Stack? A stack is a data structure that holds data in LIFO order. This means that whatever \u2026", "image": {"@type": "ImageObject", "url": "/img/stack_of_plates.jpg"}}
+  {"articleSection": "articles", "author": {"@type": "Person", "name": "Jay Ess"}, "datePublished": "2019-06-12T12:00:00-07:00", "headline": "Building a Linked Stack: Part 1", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://lab137.org/articles/building-a-linked-stack-part-1/"}, "@context": "http://schema.org", "@type": "BlogPosting", "description": "This is the first article in a multi-part series on the stack data structure. This series defines what a stack is and what it does, then implement a link-based stack What is a Stack? A stack is a data structure that holds data in LIFO order. This means that whatever \u2026", "image": {"@type": "ImageObject", "url": "https://lab137.org/img/stack_of_plates.jpg"}}
 </script>
     </div>
 
@@ -305,11 +305,11 @@ implementing the linked stack by implementing the <code>push</code> method.</p>
       <aside class="menu">
           <p class="menu-label">Other Pages</p>
           <ul class="menu-list">
-                <li><a                        href="/pages/about/">
+                <li><a                        href="https://lab137.org/pages/about/">
                   <span class="icon is-small"><i class="fa fa-book"></i></span>
                   <span class="link-text">About</span>
                 </a></li>
-                <li><a                        href="/pages/privacy-policy/">
+                <li><a                        href="https://lab137.org/pages/privacy-policy/">
                   <span class="icon is-small"><i class="fa fa-book"></i></span>
                   <span class="link-text">Privacy Policy</span>
                 </a></li>
@@ -329,6 +329,11 @@ implementing the linked stack by implementing the <code>push</code> method.</p>
       <span class="link-text">GitHub</span>
     </a></li>
 
+    <li><a href="https://lab137.org/feeds/all.atom.xml"
+           type="application/atom+xml" rel="alternate">
+      <span class="icon is-small"><i class="fa fa-rss"></i></span>
+      <span class="link-text">Atom Feed</span>
+    </a></li>
 
 </ul>          <p class="menu-label">License</p>
           
