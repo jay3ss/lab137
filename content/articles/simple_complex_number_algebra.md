@@ -26,26 +26,24 @@ in the 2-dimensional complex plane with the horizontal axis is called the
 "real" axis while the vertical axis is called the "imaginary" axis. The figure
 below shows this nicely.
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="thumbnail">
-            <img src="{static}/img/complex_number_rect.svg"
-                 class="img-responsive align-center"
-                 alt="A complex number"
-                 title="A complex number">
-            <div class="caption text-center">
-                A complex number z, as a point (red) and its position vector (blue).
-                Image courtesy of
-                <a href="https://en.wikipedia.org/wiki/Complex_number#/media/File:A_plus_bi.svg">
-                    LasinIkamusumeFan
-                </a> under the
-                <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
-                    Creative Commons 4.0 License
-                </a>.
-            </div>
-        </div>
-    </div>
-</div>
+<figure class="image">
+  <img src="{static}/img/complex_number_rect.svg"
+       class="img-responsive align-center"
+       alt="A complex number"
+       title="A complex number"
+       class="center responsive-image">
+  <figcaption>
+    A complex number z, as a point (red) and its position vector (blue).
+    Image courtesy of <cite>
+    <a href="https://en.wikipedia.org/wiki/Complex_number#/media/File:A_plus_bi.svg">
+        LasinIkamusumeFan
+    </a> under the
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+        Creative Commons 4.0 License
+    </a>.
+    </cite>
+  </figcaption>
+</figure>
 
 **Note** that in electrical engineering $j$ denotes the imaginary number/axis
 so as to avoid confusion with the time-varying current $i$. This is the
@@ -77,26 +75,24 @@ $$
 
 and is shown in the figure below.
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="thumbnail">
-            <img src="{static}/img/complex_number_polar_opt.svg"
-                 class="img-responsive align-center"
-                 alt="A complex number"
-                 title="A complex number">
-            <div class="caption text-center">
-                A complex number z, as a point (red) and its position vector (blue).
-                Image courtesy of
-                <a href="https://en.wikipedia.org/wiki/File:Complex_number_illustration_modarg.svg">
-                    Oleg Alexandrov
-                </a> under the
-                <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">
-                    Creative Commons 3.0 License
-                </a>.
-            </div>
-        </div>
-    </div>
-</div>
+<figure class="image">
+  <img src="{static}/img/complex_number_polar_opt.svg"
+       alt="A complex number"
+       title="A complex number"
+       class="center responsive-image">
+  <figcaption>
+    A complex number z, as a point (red) and its position vector (blue).
+    Image courtesy of <cite>
+    <a href="https://en.wikipedia.org/wiki/File:Complex_number_illustration_modarg.svg">
+        Oleg Alexandrov
+    </a> under the
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">
+        Creative Commons 3.0 License
+    </a>.
+    </cite>
+  </figcaption>
+</figure>
+
 
 $\|r\|$ is the *magnitude* and $\phi$ is the *phase angle* of the complex
 number $z$, respectively. To help explain this, you can think of a complex
@@ -180,29 +176,29 @@ table below shows you exactly how to find this out.
       <tr>
         <th>Conditions</th>
         <th>Quadrant</th>
-        <th>Range of $\phi$</th>
+        <th>Range of \(\phi\)</th>
       </tr>
     </thead>
       <tbody>
         <tr>
-          <td>$a \gt 0\,$ and $b \gt 0$</td>
+          <td>\(a \gt 0\,\) and \(b \gt 0\)</td>
           <td>1<sup>st</sup> quadrant</td>
-          <td>0° $\lt \phi \lt$ 90°</td>
+          <td>0° \(\lt \phi \lt\) 90°</td>
         </tr>
         <tr>
-          <td>$a \gt 0\,$ and $b \gt 0$</td>
+          <td>\(a \gt 0\,\) and \(b \gt 0\)</td>
           <td>2<sup>nd</sup> quadrant</td>
-          <td>90° $\lt \phi \lt$ 180°</td>
+          <td>90° \(\lt \phi \lt\) 180°</td>
         </tr>
         <tr>
-          <td>$a \gt 0\,$ and $b \gt 0$</td>
+          <td>\(a \gt 0\,\) and \(b \gt 0\)</td>
           <td>3<sup>rd</sup> quadrant</td>
-          <td>180° $\lt \phi \lt$ 270°</td>
+          <td>180° \(\lt \phi \lt\) 270°</td>
         </tr>
         <tr>
-          <td>a $\gt 0\,$ and b $\gt 0$</td>
+          <td>a \(\gt 0\,\) and b \(\gt 0\)</td>
           <td>4<sup>th</sup> quadrant</td>
-          <td>270° $\lt \phi \lt$ 360°</td>
+          <td>270° \(\lt \phi \lt\) 360°</td>
         </tr>
       </tbody>
   </table>
@@ -213,10 +209,11 @@ the formula that you need to use to find the (numerical) phase angle dependent
 on the quadrant.
 
 <!--
-    IMPORTANT! Don't remove the space in front of the div! It'll cause MathJax
+    IMPORTANT! Don't remove the space in front of the table! It'll cause MathJax
     to stop rendering in the table
 -->
- <table class="tabl table is-fullwidth">
+<div class="table-container">
+ <table class="table is-hoverable">
     <thead>
       <tr>
         <th>Quadrant</th>
@@ -226,23 +223,23 @@ on the quadrant.
       <tbody>
         <tr>
           <td>1<sup>st</sup> quadrant</td>
-          <td>$\phi = \tan^{-1}{\frac{b}{a}}$</td>
+          <td>\(\phi = \tan^{-1}{\frac{b}{a}}\)</td>
         </tr>
         <tr>
           <td>2<sup>nd</sup> quadrant</td>
-          <td>$\phi = \pi - \tan^{-1}{\frac{\left|b\right|}{a}}$</td>
+          <td>\(\phi = \pi - \tan^{-1}{\frac{\left|b\right|}{a}}\)</td>
         </tr>
         <tr>
           <td>3<sup>rd</sup> quadrant</td>
-          <td>$\phi = \pi + \tan^{-1}{\left|\frac{b}{a}\right|}$</td>
+          <td>\(\phi = \pi + \tan^{-1}{\left|\frac{b}{a}\right|}\)</td>
         </tr>
         <tr>
           <td>4<sup>th</sup> quadrant</td>
-          <td>$\phi = -\tan^{-1}{\frac{\left|b\right|}{a}}$</td>
+          <td>\(\phi = -\tan^{-1}{\frac{\left|b\right|}{a}}\)</td>
         </tr>
       </tbody>
   </table>
-
+</div>
 
 #### Example
 
@@ -489,6 +486,3 @@ please comment below.
 [complex numbers]: https://en.wikipedia.org/wiki/Complex_number "Wikipedia - Complex Numbers"
 [Wikipedia - List of things named after Leonhard Euler]: https://en.wikipedia.org/wiki/List_of_things_named_after_Leonhard_Euler "Wikipedia - List of things named after Leonhard Euler"
 [importance of complex conjugates]: https://www.allaboutcircuits.com/technical-articles/importance-of-complex-conjugates/ "All About Circuits - The Importance of Complex Conjugates"
-
-
-<script type="text/javascript" src="/js/mathjax.js"></script>
