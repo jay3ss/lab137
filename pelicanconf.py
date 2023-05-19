@@ -48,6 +48,11 @@ MATH_JAX = {
     "auto_insert": True,
     "process_summary": True,
     "align": "center",
+    "tex": {
+        "inlineMath": [["$", "$"], ['\\(','\\)']]
+    },
+    "process_summary": True,
+    "equation_numbering": "AMS",
 }
 
 # Feed generation is usually not desired when developing
