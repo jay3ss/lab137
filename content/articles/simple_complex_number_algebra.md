@@ -171,6 +171,7 @@ table below shows you exactly how to find this out.
     IMPORTANT! Don't remove the space in front of the div! It'll cause MathJax
     to stop rendering in the table
 -->
+<div class="table-container">
  <table class="table is-fullwidth">
     <thead>
       <tr>
@@ -202,7 +203,7 @@ table below shows you exactly how to find this out.
         </tr>
       </tbody>
   </table>
-
+</div>
 Once you know what quadrant the complex number is in, then finding the phase
 angle is pretty straightforward. Below I've created another table that lists
 the formula that you need to use to find the (numerical) phase angle dependent
