@@ -4,273 +4,273 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://lab137.org/</loc>
-<lastmod>2023-05-19T02:47:28-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2023-05-23T23:16:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags.html</loc>
-<lastmod>2023-05-19T02:47:28-00:00</lastmod>
+<loc>/tags.html</loc>
+<lastmod>2023-05-23T23:16:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/categories.html</loc>
-<lastmod>2023-05-19T02:47:28-00:00</lastmod>
+<loc>/categories.html</loc>
+<lastmod>2023-05-23T23:16:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/authors.html</loc>
-<lastmod>2023-05-19T02:47:28-00:00</lastmod>
+<loc>/authors.html</loc>
+<lastmod>2023-05-23T23:16:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/archives.html</loc>
-<lastmod>2023-05-19T02:47:28-00:00</lastmod>
+<loc>/archives.html</loc>
+<lastmod>2023-05-23T23:16:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/pages/about/</loc>
+<loc>/pages/about/</loc>
 <lastmod>2019-06-11T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/pages/privacy-policy/</loc>
+<loc>/pages/privacy-policy/</loc>
 <lastmod>2019-06-11T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/viewing-array-contents-during-debugging-in-vs-code/</loc>
+<loc>/articles/viewing-array-contents-during-debugging-in-vs-code/</loc>
 <lastmod>2020-05-20T19:27:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/using-ssh-with-git-repositories/</loc>
+<loc>/articles/using-ssh-with-git-repositories/</loc>
 <lastmod>2020-05-02T15:11:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/converting-a-powerpoint-ppt-to-a-pdf-file/</loc>
+<loc>/articles/converting-a-powerpoint-ppt-to-a-pdf-file/</loc>
 <lastmod>2020-05-01T14:26:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/how-to-print-on-the-same-line-with-python/</loc>
+<loc>/articles/how-to-print-on-the-same-line-with-python/</loc>
 <lastmod>2020-05-01T15:51:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/simple-complex-number-algebra/</loc>
+<loc>/articles/simple-complex-number-algebra/</loc>
 <lastmod>2019-07-19T16:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/c-simple-structs-usage/</loc>
+<loc>/articles/c-simple-structs-usage/</loc>
 <lastmod>2019-06-19T12:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/building-a-linked-stack-part-3/</loc>
+<loc>/articles/building-a-linked-stack-part-3/</loc>
 <lastmod>2019-06-12T12:02:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/building-a-linked-stack-part-2/</loc>
+<loc>/articles/building-a-linked-stack-part-2/</loc>
 <lastmod>2019-06-12T12:01:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/articles/building-a-linked-stack-part-1/</loc>
+<loc>/articles/building-a-linked-stack-part-1/</loc>
 <lastmod>2019-06-12T12:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/categories/articles/</loc>
+<loc>/categories/articles/</loc>
 <lastmod>2020-05-20T19:27:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/til/</loc>
+<loc>/tags/til/</loc>
 <lastmod>2020-05-20T19:27:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/vscode/</loc>
+<loc>/tags/vscode/</loc>
 <lastmod>2020-05-20T19:27:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/debug/</loc>
+<loc>/tags/debug/</loc>
 <lastmod>2020-05-20T19:27:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/c/</loc>
+<loc>/tags/c/</loc>
 <lastmod>2020-05-20T19:27:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/git/</loc>
+<loc>/tags/git/</loc>
 <lastmod>2020-05-02T15:11:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/ssh/</loc>
+<loc>/tags/ssh/</loc>
 <lastmod>2020-05-02T15:11:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/ppt/</loc>
+<loc>/tags/ppt/</loc>
 <lastmod>2020-05-01T14:26:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/powerpoint/</loc>
+<loc>/tags/powerpoint/</loc>
 <lastmod>2020-05-01T14:26:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/pdf/</loc>
+<loc>/tags/pdf/</loc>
 <lastmod>2020-05-01T14:26:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/convert/</loc>
+<loc>/tags/convert/</loc>
 <lastmod>2020-05-01T14:26:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/python/</loc>
+<loc>/tags/python/</loc>
 <lastmod>2020-05-01T15:51:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/print/</loc>
+<loc>/tags/print/</loc>
 <lastmod>2020-05-01T15:51:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/complex-numbers/</loc>
+<loc>/tags/complex-numbers/</loc>
 <lastmod>2019-07-19T16:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/math/</loc>
+<loc>/tags/math/</loc>
 <lastmod>2019-07-19T16:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/algebra/</loc>
+<loc>/tags/algebra/</loc>
 <lastmod>2019-07-19T16:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/complex-conjugate/</loc>
+<loc>/tags/complex-conjugate/</loc>
 <lastmod>2019-07-19T16:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/imaginary-numbers/</loc>
+<loc>/tags/imaginary-numbers/</loc>
 <lastmod>2019-07-19T16:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/struct/</loc>
+<loc>/tags/struct/</loc>
 <lastmod>2019-06-19T12:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/beginner/</loc>
+<loc>/tags/beginner/</loc>
 <lastmod>2019-06-19T12:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/data-structure/</loc>
+<loc>/tags/data-structure/</loc>
 <lastmod>2019-06-12T12:02:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/tags/stack/</loc>
+<loc>/tags/stack/</loc>
 <lastmod>2019-06-12T12:02:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lab137.org/author/jay-ess/</loc>
+<loc>/author/jay-ess/</loc>
 <lastmod>2020-05-20T19:27:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
