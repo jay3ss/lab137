@@ -110,12 +110,14 @@ numbers is easier when both numbers are in rectangular form).
 To convert from polar to rectangular form, we will use Euler's formula and
 multiply the result by the magnitude $\|r\|$.
 
+<div class="math-block">
 $$
 \begin{align}
     z &= \|r\|\left(\cos \phi + j \sin \phi \right) \nonumber \\
       &= a + jb \label{eq:polar_to_rect}
 \end{align}
 $$
+</div>
 
 *Interesting side note: Euler made discoveries in so many different
 fields that it started getting to the point that there were too many
@@ -137,6 +139,7 @@ Here, the magnitude is $\|r\| = 2 \sqrt{2}$ and the phase angle is
 $\phi = \frac{\pi}{4}$. Now, it's just a matter of plugging everything in to
 Equation $\ref{eq:polar_to_rect}$.
 
+<div class="math-block">
 $$
 \begin{align*}
     a + jb &= \|r\| \left(\cos \phi + j \sin \phi \right) \\
@@ -145,6 +148,7 @@ $$
     &= \boxed{2 + j2}
 \end{align*}
 $$
+</div>
 
 ### Converting from Rectangular to Polar Form
 
@@ -153,12 +157,14 @@ and the phase angle of the complex number. To find the magnitude of $z$, we
 will use the formula for the [Euclidean norm] (also known as the modulus, or
 norm)
 
+<div class="math-block">
 $$
 \begin{equation}
     \|r\| = \sqrt{a^2 + b^2}.
     \label{eq:euclidean_norm}
 \end{equation}
 $$
+</div>
 
 Finding the phase angle can be a little bit tricky (which is what prompted me
 to write this article). Although you may be tempted to immediately use
@@ -251,6 +257,7 @@ Let's convert $z = \pm 3 \pm j3$ to polar form.
 Let's first do $z = 3 + j3$. It's very simple to find the magnitude so let's do
 that first.
 
+<div class="math-block">
 $$
 \begin{align*}
     \|r\| &= \sqrt{a^2 + b^2} \\
@@ -259,12 +266,14 @@ $$
           &= \boxed{3 \sqrt{2}}
 \end{align*}
 $$
+</div>
 
 We can tell that this number is in the first quadrant because both of the real
 and imaginary components are positive. Therefore, according to the above
 [table](#quadrants), we will use $\phi = \tan^{-1}{\frac{b}{a}}$ to find the phase
 angle.
 
+<div class="math-block">
 $$
 \begin{align*}
     \phi &= \tan^{-1}{\frac{b}{a}} \\
@@ -272,17 +281,21 @@ $$
          &= \boxed{\frac{\pi}{4}}
 \end{align*}
 $$
+</div>
 
 Combining the magnitude and phase leaves us with the polar form
 
+<div class="math-block">
 $$
 \boxed{z = 3 \sqrt{2} \, e \, ^{j \frac{\pi}{4}}}
 $$
+</div>
 
 ##### Second Quadrant
 
 Now, let's do $z = -3 + j3$. Again, we're going to find the magnitude first.
 
+<div class="math-block">
 $$
 \begin{align*}
     \|r\| &= \sqrt{\left(-3 \right)^2 + 3^2} \\
@@ -290,12 +303,14 @@ $$
           &= \boxed{3 \sqrt{2}}
 \end{align*}
 $$
+</div>
 
 We can tell that this number is in the second quadrant because the real
 component is negative while the imaginary component is positive.
 Therefore, according to the above [table](#quadrants), we will use
 $\phi = \pi - \tan^{-1}{\frac{b}{\left|a\right|}}$ to find the phase angle.
 
+<div class="math-block">
 $$
 \begin{align*}
     \phi &= \pi - \tan^{-1}{\frac{b}{\left|a\right|}} \\
@@ -304,17 +319,21 @@ $$
          &= \boxed{\frac{3\pi}{4}}
 \end{align*}
 $$
+</div>
 
 Combining the magnitude and phase leaves us with the polar form
 
+<div class="math-block">
 $$
 \boxed{z = 3 \sqrt{2} \, e \, ^{j \frac{3\pi}{4}}}
 $$
+</div>
 
 ##### Third Quadrant
 
 Now, let's do $z = -3 - j3$. Again, we're going to find the magnitude first.
 
+<div class="math-block">
 $$
 \begin{align*}
     \|r\| &= \sqrt{\left(-3 \right)^2 + \left(-3 \right)^2} \\
@@ -322,12 +341,14 @@ $$
           &= \boxed{3 \sqrt{2}}
 \end{align*}
 $$
+</div>
 
 We can tell that this number is in the third quadrant because both of the real
 and imaginary components are negative. Therefore, according to the above
 [table](#quadrants), we will use $\phi = \pi + \tan^{-1}{\left|\frac{b}{a}\right|}$
 to find the phase angle.
 
+<div class="math-block">
 $$
 \begin{align*}
     \phi &= \pi + \tan^{-1}{\left|\frac{b}{a}\right|} \\
@@ -336,17 +357,21 @@ $$
          &= \boxed{\frac{5\pi}{4}}
 \end{align*}
 $$
+</div>
 
 Combining the magnitude and phase leaves us with the polar form
 
+<div class="math-block">
 $$
 \boxed{z = 3 \sqrt{2} \, e \, ^{j \frac{5\pi}{4}}}
 $$
+</div>
 
 ##### Fourth Quadrant
 
 Now, let's do $z = 3 - j3$. Again, we're going to find the magnitude first.
 
+<div class="math-block">
 $$
 \begin{align*}
     \|r\| &= \sqrt{3^2 + \left(-3 \right)^2} \\
@@ -354,12 +379,14 @@ $$
           &= \boxed{3 \sqrt{2}}
 \end{align*}
 $$
+</div>
 
 We can tell that this number is in the fourth quadrant because real component
 is positive and the imaginary component is negative. Therefore, according to
 the above [table](#quadrants), we will use
 $\phi = -\tan^{-1}{\frac{\left|b\right|}{a}}$ to find the phase angle.
 
+<div class="math-block">
 $$
 \begin{align*}
     \phi &= -\tan^{-1}{\frac{\left|b\right|}{a}} \\
@@ -367,12 +394,15 @@ $$
          &= \boxed{-\frac{\pi}{4}}
 \end{align*}
 $$
+</div>
 
 Combining the magnitude and phase leaves us with the polar form
 
+<div class="math-block">
 $$
 \boxed{z = 3 \sqrt{2} \, e \, ^{-j \frac{\pi}{4}}}
 $$
+</div>
 
 ## Arithmetic Operations
 
@@ -389,6 +419,7 @@ For example, suppose that you have two complex numbers $z_1 = a_1 + jb_1$ and
 $z_2 = a_2 + jb_2$. To get the new number $z_3 = z_1 + z_2$, you would do the
 following
 
+<div class="math-block">
 $$
 \begin{align*}
     z_3 &= z_1 + z_2 \\
@@ -397,6 +428,7 @@ $$
         &= a_3 + jb_3.
 \end{align*}
 $$
+</div>
 
 ### Subtraction
 
@@ -408,6 +440,7 @@ For example, suppose that you have two complex numbers $z_1 = a_1 + jb_1$ and
 $z_2 = a_2 + jb_2$. To get the new number $z_3 = z_1 + z_2$ you would do the
 following
 
+<div class="math-block">
 $$
 \begin{align*}
     z_3 &= z_1 - z_2 \\
@@ -416,6 +449,7 @@ $$
         &= a_3 + jb_3.
 \end{align*}
 $$
+</div>
 
 ### Multiplication
 
@@ -430,6 +464,7 @@ For example, suppose that we have two complex numbers $z_1 = r_1 \, e^{j \phi_1}
 and $z_2 = r_2 \, e^{j \phi_2}$ and we want to multiply them. To multiply
 them, you would do the following
 
+<div class="math-block">
 $$
 \begin{align}
     z_3 &= z_1 \cdot z_2 \\
@@ -437,6 +472,7 @@ $$
         &= \left(r_1 \cdot r_2 \right) \, e^{\left(\phi_1 + \phi_2 \right)}.
 \end{align}
 $$
+</div>
 
 ### Division
 
@@ -448,6 +484,7 @@ For example, suppose that we have two complex numbers $z_1 = r_1 \, e^{j \phi_1}
 and $z_2 = r_2 \, e^{j \phi_2}$ and we want to multiply them. To multiply
 them, you would do the following
 
+<div class="math-block">
 $$
 \begin{align}
     z_3 &= \frac{z_1}{z_2} \\
@@ -455,6 +492,7 @@ $$
         &= \frac{r_1}{r_2} \, e^{\left(\phi_1 - \phi_2 \right)}.
 \end{align}
 $$
+</div>
 
 ## Complex Conjugate
 
