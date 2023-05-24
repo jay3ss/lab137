@@ -44,5 +44,9 @@ figcaption {
   .responsive-image {
     width: 100% !important;
   }
+
+  .section {
+    padding: 3rem 0.75rem !important;
+  }
 }
 
