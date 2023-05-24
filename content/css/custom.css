@@ -29,6 +29,10 @@ figcaption {
   margin-right: auto;
 }
 
+.math-block {
+  overflow-x: scroll;
+}
+
 @media screen and (min-width: 769px) {
   .responsive-image {
     width: 50% !important;
