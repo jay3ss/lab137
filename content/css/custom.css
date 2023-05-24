@@ -38,6 +38,14 @@ figcaption {
     padding: 20px;
     font-size: 1.25em !important;
   }
+
+  .section.columns > h2 {
+    font-size: 1.35em !important;
+  }
+
+  .section.columns > h3 {
+    font-size: 1.30em !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
