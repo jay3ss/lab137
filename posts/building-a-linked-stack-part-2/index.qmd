@@ -1,8 +1,10 @@
-Title: Building a Linked Stack: Part 2
-Author: Jay Ess
-Date: 2019-06-12 12:01
-Tags: data structure, stack, Python
-Status: published
+---
+title: "Building a Linked Stack: Part 2"
+author: Jay Ess
+date: 2019-06-12 12:01
+categories: [data structure, stack, python]
+draft: false
+---
 
 
 *This is the second article in a multi-part series on the
@@ -10,7 +12,7 @@ Status: published
 This series defines what a stack is and what it does, then implements a
 link-based stack*
 
-[Earlier]({filename}/articles/building_a_linked_stack_part_3.md), we talked
+[Earlier](/posts/building-a-linked-stack-part-3), we talked
 about what a stack is, what a linked stack is, and then we wrote an interface
 for a stack. In this article, we'll start implementing a *singly*-linked stack
 starting with implementing a node and then implementing the `is_empty` and `push`
@@ -30,7 +32,7 @@ holds the data and a reference to the next node in the chain such as shown in
 the figure below (recycled from the previous post). We need this reference to
 the next node because it can be anywhere in memory.
 
-![A link of nodes]({static}/img/singly-linked-list.svg)
+![A link of nodes](../img/singly-linked-list.svg)
 
 ### Using the Stack Interface
 
@@ -39,10 +41,10 @@ use it. The way that we're going to use it is by making our `LinkedStack` class
 a sublcass of the `StackInterface` class. By subclassing the `StackInterface`
 class, we are forced to live up to the specs that we laid out earlier.
 
-    :::python
-    class LinkedStack(StackInterface):
-        """Defines a link-based stack"""
-
+```python
+class LinkedStack(StackInterface):
+    """Defines a link-based stack"""
+```
 And that's it! Now we just have to override the methods declared as abstract
 methods in the `StackInterface` class.
 
@@ -57,17 +59,18 @@ Since a node holds *data* and a reference to the *next* node, our node class
 will have `data` and `next` attributes and we'll implement a dunder method to
 make our lives easier.
 
-    :::python
-    # node.py
-    class Node:
-        """A node in a chain"""
+```python
+# node.py
+class Node:
+    """A node in a chain"""
 
-        def __init__(self, next=None, data=None):
-            self.next = next
-            self.data = data
+    def __init__(self, next=None, data=None):
+        self.next = next
+        self.data = data
 
-        def __repr__(self):
-            return repr(self.data)
+    def __repr__(self):
+        return repr(self.data)
+```
 
 The default values of the attributes inherently make sense. If we instantiate a
 `node` object without specifying any data or the next node, then those should
@@ -96,9 +99,10 @@ the chain.
 
 Our `__init__` method ends up being
 
-    :::python
-    def __init__(self):
-        self.top = None
+```python
+def __init__(self):
+    self.top = None
+```
 
 ### The is_empty Method
 
@@ -106,10 +110,11 @@ According to our specifications laid out in the previous post, we need to
 implement a method that determines if the stack is empty or not. An easy way to
 do that is to check if the top node is `None`
 
-    :::python
-    def is_empty(self):
-        """Determines if the stack is empty"""
-        return self.top is None
+```python
+def is_empty(self):
+    """Determines if the stack is empty"""
+    return self.top is None
+```
 
 ### The Push Method
 
@@ -130,17 +135,18 @@ parameter and return `True` if the entry was successfully added and return
 
 Here's the Python code
 
-    :::python
-    def push(self, entry):
-        """Adds a new entry to the top of the stack"""
-        node = Node(data=entry)
-        if self.is_empty():
-            self.top = node
-        else:
-            node.next = self.top
-            self.top = node
+```python
+def push(self, entry):
+    """Adds a new entry to the top of the stack"""
+    node = Node(data=entry)
+    if self.is_empty():
+        self.top = node
+    else:
+        node.next = self.top
+        self.top = node
 
-        return True
+    return True
+```
 
 ## Conclusion
 

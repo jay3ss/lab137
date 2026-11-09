@@ -1,8 +1,10 @@
-Title: Converting a PowerPoint PPT to a PDF File
-Author: Jay Ess
-Date: 2020-05-01 14:26
-Tags: ppt, powerpoint, til, pdf, convert
-Status: published
+---
+title: Converting a PowerPoint PPT to a PDF File
+author: Jay Ess
+date: 2020-05-01 14:26
+categories: [ppt, powerpoint, til, pdf, convert]
+draft: false
+---
 
 I'm currently taking an online class and the professor gives out PowerPoint
 slides as part of his lecture. I don't like the LibreOffice version of

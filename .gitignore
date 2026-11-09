@@ -161,4 +161,7 @@ dmypy.json
 .vscode/
 
 # Compiled site
-output/
+_site/
+
+/.quarto/
+**/*.quarto_ipynb

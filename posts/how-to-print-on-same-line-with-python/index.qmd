@@ -1,9 +1,11 @@
-Title: How to Print on the Same Line with Python
-Author: Jay Ess
-Date: 2019-12-17 16:00
-Modified: 2020-05-01 15:51
-Tags: python, print
-Status: published
+---
+title: How to Print on the Same Line with Python
+author: Jay Ess
+date: 2019-12-17 16:00
+date-modified: 2020-05-01 15:51
+categories: [python, print]
+draft: false
+---
 
 Today, I was downloading about 1,600 images and wanted to be able to keep track
 of how many images I had downloaded so far and what image that I was currently
@@ -129,4 +131,3 @@ with open(urls_file) as urls:
 
 print(f'\nDone! Downloaded {count} images')
 ```
-

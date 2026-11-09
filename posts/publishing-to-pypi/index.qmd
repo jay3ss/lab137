@@ -1,8 +1,10 @@
-Title: Publishing to PyPI
-Author: Jay Ess
-Date: 2023-06-07 11:54
-Tags: Python, publishing, code, til
-Status: published
+---
+title: Publishing to PyPI
+author: Jay Ess
+date: 2023-06-07 11:54
+categories: [python, publishing, code, til]
+draft: false
+---
 
 *NOTE: I don't do this very often so there could be a lot of incorrect information
 in this post. I'm mainly writing this for myself for future reference. But, if

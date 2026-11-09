@@ -1,8 +1,10 @@
-Title: Viewing Array Contents During Debugging in VS Code
-Author: Jay Ess
-Date: 2020-05-20 19:27
-Tags: til, vscode, debug, c++
-Status: published
+---
+title: Viewing Array Contents During Debugging in VS Code
+author: Jay Ess
+date: 2020-05-20 19:27
+categories: [til, vscode, debug, c++]
+draft: false
+---
 
 After getting annoyed with adding a bunch of array indices to the watch list for
 a program that I was debugging, I went in search of a better solution. I came
@@ -29,11 +31,11 @@ Even better, you can use the following
 Here's a screenshot of doing it manually
 
 ![Manually adding array elements during
-debug]({static}/img/view_arr_long_way.png)
+debug](/posts/img/view_arr_long_way.png)
 
 and here's a screenshot of using the shortcut
 
 ![Shortcut of viewing array elements during
-debug]({static}/img/view_arr_shortcut.png)
+debug](/posts/img/view_arr_shortcut.png)
 
 Much better.

@@ -1,9 +1,10 @@
-Title: Simple Complex Number Algebra
-Author: Jay Ess
-Date: 2019-07-19 16:00
-Tags: complex numbers, math, algebra, complex conjugate, imaginary numbers
-Status: published
-
+---
+title: Simple Complex Number Algebra
+author: Jay Ess
+date: 2019-07-19 16:00
+categories: [complex numbers, math, algebra, complex conjugate, imaginary numbers]
+draft: false
+---
 
 I decided to start reviewing some of my controls courses from university to
 brush up on the fundamentals. While reviewing, I had an "Oh shit" moment when I
@@ -27,7 +28,7 @@ in the 2-dimensional complex plane with the horizontal axis is called the
 below shows this nicely.
 
 <figure class="image">
-  <img src="{static}/img/complex_number_rect.svg"
+  <img src="../img/complex_number_rect.svg"
        class="img-responsive align-center"
        alt="A complex number"
        title="A complex number"
@@ -76,7 +77,7 @@ $$
 and is shown in the figure below.
 
 <figure class="image">
-  <img src="{static}/img/complex_number_polar_opt.svg"
+  <img src="../img/complex_number_polar_opt.svg"
        alt="A complex number"
        title="A complex number"
        class="center responsive-image">

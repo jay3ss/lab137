@@ -1,0 +1,7 @@
+---
+title: Monitoring File Changes with Python
+author: Jay Ess
+date: 2023-06-12 12:00
+categories: data structure, stack, Python
+draft: true
+---

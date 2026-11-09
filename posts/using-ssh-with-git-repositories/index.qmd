@@ -1,8 +1,10 @@
-Title: Using SSH with Git Repositories
-Author: Jay Ess
-Date: 2020-05-02 15:11
-Tags: til, git, ssh
-Status: published
+---
+title: Using SSH with Git Repositories
+author: Jay Ess
+date: 2020-05-02 15:11
+categories: [til, git, ssh]
+draft: false
+---
 
 If you've setup your [git account to use
 SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh),
