@@ -24,7 +24,7 @@ git clone git@github.com:<username>/<reponame>.git
 ## Changing the Remote to Use SSH
 
 If you've already cloned a repo without using SSH, then you can [modify the
-branch to use SSH](https://stackoverflow.com/a/11201143/3562890)
+branch to use SSH](https://stackoverflow.com/a/11201143/)
 
 ```
 git remote set-url origin git@github.com:<username>/<reponame>.git
