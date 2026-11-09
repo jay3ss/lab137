@@ -12,7 +12,7 @@ someone else finds this useful then that makes me happy.*
 
 Publishing to PyPI is an easy way to distribute your code to the masses. It can,
 however, be a little tricky to get your package uploaded. Here's how I just did
-it with my package [PyAutoReloadServer](//pypi.org/project/pyautoreloadserver/).
+it with my package [PyAutoReloadServer](https://pypi.org/project/pyautoreloadserver/).
 
 ## Setting Up Your Project
 
@@ -63,11 +63,11 @@ setup(
 ```
 
 You can read all about what to put in your own `setup.py` file
-[here](//docs.python.org/3/distutils/setupscript.html). I like to use code to
+[here](https://docs.python.org/3/distutils/setupscript.html). I like to use code to
 keep things like the `long_description` and `extras_require` attributes up-to-date
 automatically. But, you do you.
 
-Now, make an account on [PyPI's website](//pypi.org) and then get an
+Now, make an account on [PyPI's website](https://pypi.org) and then get an
 [API key](https://pypi.org/help#apitoken) that you'll use to upload your package.
 I made a `~/.pypirc` file to hold all of the information that I'll need to upload
 my packages. Here's what it looks like (with some info redacted):
@@ -91,7 +91,7 @@ password = <api-key>
 ```
 
 There's couple of things going on in the file above and you should checkout the
-[docs](//packaging.python.org/en/latest/specifications/pypirc/) for it. But, in
+[docs](https://packaging.python.org/en/latest/specifications/pypirc/) for it. But, in
 the meantime here's some of the important bits from the docs
 
 > The `distutils` section defines an `index-servers` field that lists the name of
@@ -114,8 +114,8 @@ as the value. It took me an embarrassingly long time to figure that one out.
 
 There are a multiple ways to build a Python package for distribution. The two
 that I come across the most are directly using a `setup.py` script (which is
-[strongly discouraged](//blog.ganssle.io/articles/2021/10/setup-py-deprecated.html)
-and deprecated) or using the [`build`](//pypi.org/project/build/) package. I'm
+[strongly discouraged](https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html)
+and deprecated) or using the [`build`](https://pypi.org/project/build/) package. I'm
 going to use the `build` package.
 
 I was having trouble using `build` the command `python -m build` and had to
@@ -133,7 +133,7 @@ flags tells `build` to create a wheel and a `build/` and `dist/` directory.
 
 ## Publishing the Package
 
-Next, use [`twine`](//twine.readthedocs.io/en/stable/) to publish the package.
+Next, use [`twine`](https://twine.readthedocs.io/en/stable/) to publish the package.
 Twine is the official PyPI upload tool so it should work for you. You'll first
 want to test publishing your package to ensure that everything goes right. Using
 `twine` it's pretty easy to test uploading.
@@ -157,4 +157,4 @@ python -m twine upload -r pypi dist/* --verbose
 
 If nothing went wrong your package should be live on PyPI. Have a question? Leave
 a comment (if I've re-enabled comments) or leave an issue or pull request on the
-site's [repo](//github.com/jay3ss/jay3ss.github.io).
+site's [repo](https://github.com/jay3ss/jay3ss.github.io).
