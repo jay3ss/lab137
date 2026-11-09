@@ -96,9 +96,9 @@ the meantime here's some of the important bits from the docs
 
 > The `distutils` section defines an `index-servers` field that lists the name of
 > all sections describing a repository.
-
+>
 > Each section describing a repository defines three fields:
-
+>
 > - `repository`: The URL of the repository.
 > - `username`: The registered username on the repository.
 > - `password`: The password that will used to authenticate the username.
