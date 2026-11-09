@@ -12,7 +12,7 @@ draft: false
 This series defines what a stack is and what it does, then implements a
 link-based stack*
 
-[Earlier](/posts/building-a-linked-stack-part-2), we learned
+[Earlier](/articles/building-a-linked-stack-part-2), we learned
 about nodes and the top node and we also implemented the `is_empty` and `push`
 methods. In the next article we'll finish implementing our `LinkedStack` class
 by implementing the pop and peek methods.
@@ -48,7 +48,7 @@ class LinkedStack(StackInterface):
 ### The Pop Method
 
 Now, we're going to implement the `pop` method. The specifications from
-[the first article]({filename}/articles/building_a_linked_stack_part_1.md)
+[the first article](/articles/building-a-linked-stack-part-1)
 show that we need to obey the following behavior
 
 1. `(new Stack()).pop() = False`
@@ -111,7 +111,7 @@ I believe that the above will give me a slightly longer life.
 ### The Peek Method
 
 Now, we're going to implement the `peek` method. The specifications from
-[the first article]({filename}/articles/building_a_linked_stack_part_1.md)
+[the first article](/articles/building-a-linked-stack-part-1)
 show that we need to obey the following behavior
 
 1. `(new Stack()).peek() = error`

@@ -32,7 +32,7 @@ holds the data and a reference to the next node in the chain such as shown in
 the figure below (recycled from the previous post). We need this reference to
 the next node because it can be anywhere in memory.
 
-![A link of nodes](../img/singly-linked-list.svg)
+![A link of nodes](/articles/img/singly-linked-list.svg)
 
 ### Using the Stack Interface
 

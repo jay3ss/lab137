@@ -23,7 +23,7 @@ washing, every time you clean one plate you pull another off the top of the
 stack of dirty dishes. If someone wants to give you more dishes to wash they're
 going to put them on top of your stack.
 
-![A stack of dirty dishes](../img/stack_of_plates.jpg)
+![A stack of dirty dishes](/articles/img/stack_of_plates.jpg)
 
 That's pretty much what the stack data structure is. It's an ordered collection
 of things (with the most recently added thing at the top) and you can perform
@@ -131,14 +131,14 @@ then that reference is `None` in Python (or, `nullptr` in C++). In the figure
 below, the left side of the node is the data and the right side is a reference
 to the next node indicated by an arrow.
 
-![A single node](../img/node_scoured.svg)
+![A single node](/articles/img/node_scoured.svg)
 
 A chain of nodes is shown in the figure below. The head consists of a head node
 and the nodes following it. The end of the chain is the block all the way to
 the right with an "X" in it. This "X" represents a reference to `None` in
 Python (or `nullptr` in C++) indicating the end of the chain.
 
-![A stack of dirty dishes](../img/stack_of_plates.jpg)
+![A stack of dirty dishes](/articles/img/stack_of_plates.jpg)
 
 Now, linked data structures aren't perfect and there will be some tradeoffs to
 using one versus using an array. First, they take more memory because they must
@@ -151,7 +151,7 @@ reach the desired entry.
 
 We're going to start with defining an interface for the stack then
 move on to implementing the linked stack in the [next
-article](../articles/building_a_linked_stack_part_2.md). The point of
+article](/articles/building-a-linked-stack-part-2). The point of
 making an interface is to make sure that we implement the correct methods in
 our implementation. Now, this may not seem like it's such a big deal right now
 (after all, we're only implementing on type of stack, right?), but if we wanted

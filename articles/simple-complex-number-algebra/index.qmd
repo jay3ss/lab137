@@ -28,7 +28,7 @@ in the 2-dimensional complex plane with the horizontal axis is called the
 below shows this nicely.
 
 <figure class="image">
-  <img src="../img/complex_number_rect.svg"
+  <img src="/articles/img/complex_number_rect.svg"
        class="img-responsive align-center"
        alt="A complex number"
        title="A complex number"
@@ -77,7 +77,7 @@ $$
 and is shown in the figure below.
 
 <figure class="image">
-  <img src="../img/complex_number_polar_opt.svg"
+  <img src="/articles/img/complex_number_polar_opt.svg"
        alt="A complex number"
        title="A complex number"
        class="center responsive-image">
