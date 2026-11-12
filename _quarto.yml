@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: ../jay3ss.github.io
 
 website:
   description: "A blog about stuff"
@@ -12,6 +13,8 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: About
+        href: pages/about/index.qmd
     right:
       - icon: github
         href:  https://github.com/jay3ss
@@ -25,14 +28,12 @@ website:
         href: index.xml
         aria-label: RSS Feed
         target: _blank
-  page-footer:
-    center: Copyright jayess
+  draft-mode: gone
 
 format:
   html:
     theme:
       - zephyr
-      - brand
     css: styles.css
     toc: true
     toc-depth: 2

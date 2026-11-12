@@ -12,7 +12,7 @@ draft: false
 This series defines what a stack is and what it does, then implements a
 link-based stack*
 
-[Earlier](/posts/building-a-linked-stack-part-3), we talked
+[Earlier](/articles/building-a-linked-stack-part-3), we talked
 about what a stack is, what a linked stack is, and then we wrote an interface
 for a stack. In this article, we'll start implementing a *singly*-linked stack
 starting with implementing a node and then implementing the `is_empty` and `push`

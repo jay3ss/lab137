@@ -31,11 +31,11 @@ Even better, you can use the following
 Here's a screenshot of doing it manually
 
 ![Manually adding array elements during
-debug](/posts/img/view_arr_long_way.png)
+debug](/articles/img/view_arr_long_way.png)
 
 and here's a screenshot of using the shortcut
 
 ![Shortcut of viewing array elements during
-debug](/posts/img/view_arr_shortcut.png)
+debug](/articles/img/view_arr_shortcut.png)
 
 Much better.

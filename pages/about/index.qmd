@@ -2,6 +2,7 @@
 title: "About"
 path: "pages/about"
 about:
+  id: hero-heading
   template: marquee
   links:
     - icon: linkedin
@@ -13,6 +14,8 @@ about:
       href: https://github.com/jay3ss
       target: _blank
 ---
+
+:::{#hero-heading}
 
 Hi! You've somehow found me and now you're wondering who the hell I am. Well,
 I'm no one special. Really. Just some guy writing articles for himself so he
