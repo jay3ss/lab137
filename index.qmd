@@ -1,7 +1,6 @@
 ---
-title: "lab137"
 listing:
-  contents: posts
+  contents: articles
   feed: true
   sort: "date desc"
   type: default
@@ -9,7 +8,4 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
 ---
-
-

@@ -2,19 +2,37 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
+  description: "A blog about stuff"
   site-url: https://lab137.org
   title: "Lab 137"
+  favicon: favicon.ico
+  repo-url: https://github.com/jay3ss/lab137
+  issue-url: https://github.com/jay3ss/jay3ss.github.io/issues/new
   navbar:
+    left:
+      - text: Home
+        href: index.qmd
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/jay3ss
+        href:  https://github.com/jay3ss
+        aria-label: Jay's GitHub
+        target: _blank
       - icon: linkedin
         href: https://www.linkedin.com/in/jsaundersee
+        aria-label: Jay's LinkedIn
+        target: _blank
+      - icon: rss
+        href: index.xml
+        aria-label: RSS Feed
+        target: _blank
+  page-footer:
+    center: Copyright jayess
+
 format:
   html:
     theme:
-      - cosmo
+      - zephyr
       - brand
     css: styles.css
+    toc: true
+    toc-depth: 2
